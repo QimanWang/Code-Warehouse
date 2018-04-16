@@ -1,0 +1,15 @@
+given powerpoint , find:
+box center,
+text , (sometimes theres more than 1 text target)
+determine direction of connection (i,j)
+determine strength (1-5)
+positive or negative (color)
+
+output- text files
+connection matrix 2d
+bxy(center)
+btext = [name,....]
+
+
+testoutput2 reads in data1.txt
+produces outputfile(dummy2.txt)
