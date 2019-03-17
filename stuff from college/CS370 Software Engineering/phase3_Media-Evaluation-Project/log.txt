@@ -1,0 +1,25 @@
+Sat Dec 02 19:14:34 EST 2017 Successfully Parsed command line arguments
+Sat Dec 02 19:14:34 EST 2017 Successfully Loaded Hashtable from input
+Sat Dec 02 19:14:34 EST 2017 Successfully opened GUI
+Sat Dec 02 19:14:35 EST 2017 Successfully loaded Hashtable to GUI
+Sat Dec 02 19:14:36 EST 2017 Successfully Saved to output file
+Mon Dec 04 15:49:08 EST 2017 Successfully Parsed command line arguments
+Mon Dec 04 15:49:08 EST 2017 Successfully Loaded Hashtable from input
+Mon Dec 04 15:49:09 EST 2017 Successfully opened GUI
+Mon Dec 04 15:49:09 EST 2017 Successfully loaded Hashtable to GUI
+Mon Dec 04 15:49:09 EST 2017 Successfully Saved to output file
+Wed Dec 06 13:52:59 EST 2017 Successfully Parsed command line arguments
+Wed Dec 06 13:52:59 EST 2017 Successfully Loaded Hashtable from input
+Wed Dec 06 13:52:59 EST 2017 Successfully opened GUI
+Wed Dec 06 13:52:59 EST 2017 Successfully loaded Hashtable to GUI
+Wed Dec 06 13:52:59 EST 2017 Successfully Saved to output file
+Wed Dec 06 14:19:34 EST 2017 Successfully Parsed command line arguments
+Wed Dec 06 14:19:34 EST 2017 Successfully Loaded Hashtable from input
+Wed Dec 06 14:19:34 EST 2017 Successfully opened GUI
+Wed Dec 06 14:19:34 EST 2017 Successfully loaded Hashtable to GUI
+Wed Dec 06 14:19:34 EST 2017 Successfully Saved to output file
+Wed Dec 06 16:36:50 EST 2017 Successfully Parsed command line arguments
+Wed Dec 06 16:36:50 EST 2017 Successfully Loaded Hashtable from input
+Wed Dec 06 16:36:50 EST 2017 Successfully opened GUI
+Wed Dec 06 16:36:50 EST 2017 Successfully loaded Hashtable to GUI
+Wed Dec 06 16:36:50 EST 2017 Successfully Saved to output file

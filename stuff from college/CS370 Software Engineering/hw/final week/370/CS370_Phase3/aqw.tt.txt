@@ -1,0 +1,2 @@
+ISBN|Title|Author|Publisher|YearPublished|Price|Quantity|
+1783555130|Python Machine Learning, 1st Edition |Sebastian Raschka| Packt Publishing - ebooks Account (September 2015)|September 2015|44.99|1|4.4 out of 5 stars

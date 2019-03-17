@@ -1,0 +1,5 @@
+Inventory Number|Item Name|Number of Bids|Price|Seller|Bid End Date
+46488477|032 Hal-Sey Fifth Porcelain Figurine |0|8.99|Goodwill Industries of Central North Carolina, Inc.|12/12/2017 11:19:14 AM Pacific Time|
+46488488|9.9 Pound fashion Jewelry Grab bag #4 |41|11.99|Goodwill Keystone Area - Reading|12/12/2017 11:19:33 AM Pacific Time|
+46488489|KIRBY CARPET SHAMPOO SYSTEM |12|9.99|Goodwill of Central &amp; Southern Indiana, Inc.|12/12/2017 11:19:34 AM Pacific Time|
+46488531|Size 36C Grey Victoria&#39;s Secret Bra #90 |4|10.99|Goodwill Industries of Northeast Iowa, Inc.|12/12/2017 11:19:45 AM Pacific Time|

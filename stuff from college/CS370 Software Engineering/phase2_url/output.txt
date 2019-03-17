@@ -1,0 +1,49 @@
+URL link: http://www.qimanwang.me
+Content Type: text/html; charset=utf-8
+Content Length: 29706
+Last Modified: Tue Oct 24 15:56:54 EDT 2017
+Expiration: 1509216011000
+Content Encoding: null
+
+URL link: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/HypergeometricPDF.png/450px-HypergeometricPDF.png
+Content Type: image/png
+Content Length: 56117
+Last Modified: Mon Sep 11 09:54:30 EDT 2017
+Expiration: 0
+Content Encoding: null
+
+URL link: https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.artn.jpg
+Content Type: image/jpeg
+Content Length: 7737
+Last Modified: Thu Nov 05 09:43:44 EST 1998
+Expiration: 0
+Content Encoding: null
+
+URL link: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/300px-Rotating_earth_%28large%29.gif
+Content Type: image/gif
+Content Length: 620098
+Last Modified: Sat Feb 25 12:27:02 EST 2017
+Expiration: 0
+Content Encoding: null
+
+URL link: http://www.qimanwang.me/Blog/blog01.html
+Content Type: text/html; charset=utf-8
+Content Length: 136
+Last Modified: Tue Oct 24 15:56:40 EDT 2017
+Expiration: 1509215294000
+Content Encoding: null
+
+URL link: https://docs.oracle.com/javase/tutorial/essential/regex/pre_char_classes.html
+Content Type: text/html
+Content Length: 21208
+Last Modified: Mon Sep 18 14:18:43 EDT 2017
+Expiration: 0
+Content Encoding: null
+
+URL link: http://venus.cs.qc.edu/~smane/cs361/lectures/CS361_761_lecture8.pdf
+Content Type: application/pdf
+Content Length: 195806
+Last Modified: Mon Oct 09 10:00:13 EDT 2017
+Expiration: 0
+Content Encoding: null
+

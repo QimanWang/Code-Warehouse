@@ -1,0 +1,2 @@
+ISBN|Title|Author|Publisher|YearPublished|Price|Quantity|
+1|asfgg|a|as|12|1.1|1|null

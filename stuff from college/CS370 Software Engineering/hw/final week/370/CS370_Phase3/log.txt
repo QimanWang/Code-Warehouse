@@ -1,0 +1,10 @@
+ISBN|Title|Author|Publisher|YearPublished|Price|Quantity|
+043935806X|Harry Potter and the Order of the Phoenix (Book 5) |J. K. Rowling, Mary GrandPré| Arthur A. Levine Books|July 1, 2003|29.99|1|4.7 out of 5 stars
+0618640150|The Lord of the Rings: 50th Anniversary, One Vol. Edition |J.R.R. Tolkien| Mariner Books|October 12, 2005|20.0|1|4.7 out of 5 stars
+0446310786|To Kill a Mockingbird |Harper Lee| Grand Central Publishing (October 11, 1988)|October 11, 1988|8.99|1|4.5 out of 5 stars
+0553103547|A Game of Thrones (Song of Ice and Fire) |George R. R. Martin| Bantam Books|August 1996|35.0|1|4.4 out of 5 stars
+0439064872|Harry Potter And The Chamber Of Secrets |J. K. Rowling, Mary GrandPré| Scholastic Paperbacks|September 1, 2000|10.99|1|4.7 out of 5 stars
+0345339703|The Fellowship of the Ring (The Lord of the Rings, Part 1) |J.R.R. Tolkien| Del Rey|August 12, 1986|0.0|1|4.7 out of 5 stars
+1338109065|Fantastic Beasts and Where to Find Them: The Original Screenplay |J.K. Rowling| Arthur A. Levine Books|November 18, 2016|24.99|1|4.6 out of 5 stars
+0439785960|Harry Potter and the Half-Blood Prince (Book 6) |J.K. Rowling, Mary GrandPré| Scholastic Paperbacks|July 25, 2006|12.99|1|4.7 out of 5 stars
+1338099132|Harry Potter and the Cursed Child, Parts 1 &amp; 2, Special Rehearsal Edition Script |J.K. Rowling, Jack Thorne, John Tiffany| Arthur A. Levine Books|July 31, 2016|29.99|1|4.6 out of 5 stars

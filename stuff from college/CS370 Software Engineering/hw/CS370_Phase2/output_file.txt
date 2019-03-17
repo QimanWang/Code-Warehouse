@@ -1,0 +1,47 @@
+https://www.snapple.com/yum/elements/flash.html:
+  Content Type: text/html; charset=UTF-8
+  Content Length: -1
+  Last Modified: Wed Dec 31 19:00:00 EST 1969
+  Expiration: 1479804382000
+  Content Encoding: null
+
+Number of lines:478
+FileName saved as : file1.html
+
+https://i.ytimg.com/vi/opKg3fyqWt4/hqdefault.jpg:
+  Content Type: image/jpeg
+  Content Length: 20692
+  Last Modified: Wed Dec 31 19:00:00 EST 1969
+  Expiration: 1479811573000
+  Content Encoding: null
+
+Filename saved as : image1.jpg
+
+http://uppershirleyhigh.org/img/news/phone-69.jpg:
+  Content Type: image/jpeg
+  Content Length: 22547
+  Last Modified: Thu Mar 24 09:47:16 EDT 2016
+  Expiration: 0
+  Content Encoding: null
+
+Filename saved as : image2.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg:
+  Content Type: image/jpeg
+  Content Length: 576216
+  Last Modified: Thu Oct 01 10:49:57 EDT 2015
+  Expiration: 0
+  Content Encoding: null
+
+Filename saved as : image3.jpg
+
+http://www.besound.com/pushead/home.html:
+  Content Type: text/html
+  Content Length: 3870
+  Last Modified: Fri Jun 09 00:34:30 EDT 2006
+  Expiration: 0
+  Content Encoding: null
+
+Number of lines:66
+FileName saved as : file2.html
+

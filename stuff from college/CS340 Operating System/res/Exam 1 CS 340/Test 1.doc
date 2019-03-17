@@ -1,0 +1,68 @@
+Q1 - 10 ponts - Answer only if Quiz 1's grade is <78
+(A) What is a PRIVILEDGED INSTRUCTION?
+(B) What would be the reason for implementing priviledged instructions?
+(C) Give the tasks of the OS in a MULTIPROGRAMMING ENVIRONMENT.
+
+Q2 - 32 points
+I - UNIX Environment
+(A) What does the BIN directory contain?  What does the DEV directory contain?
+(B) Discuss the creation of a process from the point of view of ADDRESS SPACE.
+(C) What is the name of the system call (command) that can overwrite the default address?
+(D) What happens to a child process if its parent is terminated?
+(E) What are the return values for the FORK() command, and what are their meanings?
+(F) Define a ZOMBIE process.
+
+II
+(G) Explain the main difference between a MODE SWITCH and a FULL CONTEXT SWITCH.  Give examples of each type of switch.
+(H) ---------- UNKNOWN -----------------
+
+STORY QUESTION -
+Children wait to get their gift.  Each child process gets its turn[i] by computing number[i]. 
+ A clown has in his hat ???? each ball has a different number, from 1 to 10. 
+ After all children have their turn set, the clown is ???? -are the gifts (there are 10 gifts).  
+ The clown picks a random ball, and gives the gift to the child whose number is the same 
+ with the number of the ball (after that, he throws away the selected ball).
+Variables:
+	turn[] = 0
+	number[] = 0
+	called[] = 0
+	ballsNumber = 10
+	i = 1,.......10 (N=10)
+child(int i)
+{
+	number[i] = 1+max(number[1],number[2],....number[N});
+	turnpi] = number[i];
+	while(!called[i]) {busyWait;}
+	getTheGift();		//sleep
+	ballsNumber--;
+	goHome();		//sleep
+}
+clown()
+{
+	while(ballsNumber>0)
+	{
+		pickABall();			//sleep
+		for(int j=1; j<=N; j++)
+		{
+			if(turn[i]==numberOnBall)
+			{
+				called[j]=true;
+				giveTheGift();	//sleep
+			}//if
+		}//for
+	}//while
+	leave;
+}//clown
+
+*ALL CHILD PROCESSES EXECUTE CONCURRENTLY.
+(A) Is it possible for 2 children to compute the same value for number[i]?  Explain why and give the execution sequence that can show it.
+(B) Consider that 6 children already computed their number[i].  Give an execution sequence by which after these 6 children computed their number, the largest computed number[i] = 4.
+(C) On the hypothesis that each child has a different number[i], is it possible for children to compete for the same give (because turn[i] values are the same)?  Explain.  
+If yes, give the execution sequence that will show it.
+(D) Consider that at this point, all cihldren have their turn[i] updated (are done with the execution of turn[i]=number[i];) Is it possible for a child to starve (never be called), 
+by busy waiting in the while loop?  Explain.  If yes, give the execution sequence that will show it.
+(E) Under the hypothesis that each child had a different turn[i] value and received a gift, is it possible for the clown to not be able to go home because the while condition is still true? 
+Give the sequence that will show this situation.
+
+Extra Credit - 6 points
+(Giving the execution sequence) that if TS is not executed automatically, the Mutual Exclusion condition with TS fails to satisfy the condition.  Show where the interrupt should occur.

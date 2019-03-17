@@ -1,0 +1,3 @@
+ln : log()
+e^x : exp(x)
+a^b : pow(a,b)

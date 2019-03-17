@@ -1,0 +1,20 @@
+Mon Oct 09 22:35:30 EDT 2017 Successfully Parsed command line arguments
+Mon Oct 09 22:35:30 EDT 2017 Successfully Loaded Hashtable from input
+Mon Oct 09 22:35:30 EDT 2017 Successfully loaded Hashtable to GUI
+Mon Oct 09 22:35:30 EDT 2017 Successfully Saved to output file
+Mon Oct 09 22:35:30 EDT 2017 Successfully opened GUI
+Mon Oct 09 22:36:01 EDT 2017 Successfully Parsed command line arguments
+Mon Oct 09 22:36:01 EDT 2017 Successfully Loaded Hashtable from input
+Mon Oct 09 22:36:01 EDT 2017 Successfully opened GUI
+Mon Oct 09 22:36:01 EDT 2017 Successfully loaded Hashtable to GUI
+Mon Oct 09 22:36:01 EDT 2017 Successfully Saved to output file
+Tue Oct 10 13:39:50 EDT 2017 Successfully Parsed command line arguments
+Tue Oct 10 13:39:50 EDT 2017 Successfully Loaded Hashtable from input
+Tue Oct 10 13:39:50 EDT 2017 Successfully opened GUI
+Tue Oct 10 13:39:51 EDT 2017 Successfully loaded Hashtable to GUI
+Tue Oct 10 13:39:51 EDT 2017 Successfully Saved to output file
+Wed Oct 11 10:37:24 EDT 2017 Successfully Parsed command line arguments
+Wed Oct 11 10:37:24 EDT 2017 Successfully Loaded Hashtable from input
+Wed Oct 11 10:37:24 EDT 2017 Successfully opened GUI
+Wed Oct 11 10:37:24 EDT 2017 Successfully loaded Hashtable to GUI
+Wed Oct 11 10:37:25 EDT 2017 Successfully Saved to output file

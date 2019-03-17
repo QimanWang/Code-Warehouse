@@ -1,0 +1,5 @@
+earring
+piano
+shoes
+glove
+knife

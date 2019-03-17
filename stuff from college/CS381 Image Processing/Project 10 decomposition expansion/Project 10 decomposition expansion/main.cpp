@@ -1,0 +1,194 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+
+class Expansion {
+private:
+	int numRows, numCols, minVal, maxVal;
+	bool changeflag;
+	int cycleCount, pixel;
+	int** objectAry;//frame +2
+	int** firstAry;
+	int** secondAry;
+
+public:
+	Expansion(ifstream&, ifstream&);
+	int** zeroFramed(int**,int);
+	void loadImage(ifstream&, int**);
+	void copyAry();//copy from secondAry to firstAry
+	void DoExpansion(int, int, int);
+	void NorthExpansion();
+	void SouthExpansion();
+	void WestExpansion();
+	void EastExpansion();
+	void prettyPrint(ofstream&, int**, string, int,string);
+	void runAlgorithm(ofstream&, ofstream&);//could have more outfile
+};
+
+//Constructor
+Expansion::Expansion(ifstream& infile1, ifstream& infile2) {
+	//step0
+	infile1 >> numRows >> numCols >> minVal >> maxVal;
+	infile2 >> numRows >> numCols >> minVal >> maxVal;
+
+	// step 1 initialized the framed ary numRow+2
+	objectAry = zeroFramed(objectAry, 2);
+	firstAry= zeroFramed(firstAry, 2);
+	secondAry=zeroFramed(secondAry, 2);
+	
+	// step2. loadImage from different input into corresponding Array
+	loadImage(infile1, objectAry);
+	loadImage(infile2, firstAry);
+	for (int i = 0; i < numRows + 2; i++) {
+		for (int j = 0; j < numCols + 2; j++) {
+			 secondAry[i][j] = firstAry[i][j];
+		}
+	}
+}//constructor
+
+//zeroFrame
+int** Expansion::zeroFramed(int** arr, int frameSize) {
+	arr = new int*[numRows + frameSize];
+	for (int i = 0; i < numRows + frameSize; i++) {
+		arr[i] = new int[numCols + frameSize]();
+	}//fori to create 0 ary
+	return arr;
+}//zeroframed
+
+ //load Image from fiven file into given array
+void Expansion::loadImage(ifstream& infile, int** imgAry) {
+	for (int i = 1; i < numRows + 1; i++) {
+		for (int j = 1; j < numCols + 1; j++) {
+			infile >> imgAry[i][j];
+		}
+	}
+}//loadImage
+
+ //copy from secondAry to firstAry
+void Expansion::copyAry() {
+	for (int i = 0; i < numRows + 2; i++) {
+		for (int j = 0; j < numCols + 2; j++) {
+			firstAry[i][j] = secondAry[i][j];
+		}
+	}
+}//copy from secondAry to firstAry
+
+ //DoExpansion
+void Expansion::DoExpansion(int r, int c, int label) {
+	if (objectAry[r][c] > 0) {
+		secondAry[r][c] = label;
+		changeflag = true;
+	}
+}//do expansion
+
+// N, S, W, E
+void Expansion::NorthExpansion() {
+	for (int r = 1; r < numRows + 1; r++) {
+		for (int c = 1; c < numCols + 1; c++) {
+			if (firstAry[r][c] > 0 &&firstAry[r-1][c] ==0){
+				DoExpansion(r - 1, c, firstAry[r][c]);
+			}
+		}
+	}
+}//North 
+void Expansion::SouthExpansion() {
+	for (int r = 1; r < numRows + 1; r++) {
+		for (int c = 1; c < numCols + 1; c++) {
+			if (firstAry[r][c] > 0 && firstAry[r +1][c] == 0) {
+				DoExpansion(r + 1, c, firstAry[r][c]);
+			}
+		}
+	}
+}//south
+void Expansion::WestExpansion() {
+	for (int r = 1; r < numRows + 1; r++) {
+		for (int c = 1; c < numCols + 1; c++) {
+			if (firstAry[r][c] > 0 && firstAry[r ][c-1] == 0) {
+				DoExpansion(r , c-1, firstAry[r][c]);
+			}
+		}
+	}
+}//west
+void Expansion::EastExpansion() {
+	for (int r = 1; r < numRows + 1; r++) {
+		for (int c = 1; c < numCols + 1; c++) {
+			if (firstAry[r][c] > 0 && firstAry[r ][c+1] == 0) {
+				DoExpansion(r , c+1, firstAry[r][c]);
+			}
+		}
+	}
+}//east
+
+ //prettyprint array to output file
+void Expansion::prettyPrint(ofstream& outfile, int** imgAry, string ary, int cycle, string caption) {
+	outfile  <<" cycle:" << cycle << "\n";
+	for (int i = 0; i < numRows + 2; i++) {
+		for (int j = 0; j < numCols + 2; j++) {
+			if (imgAry[i][j] > 0) { outfile << imgAry[i][j]<<" "; }
+			else { outfile << "  "; }
+		}
+		outfile << '\n';
+	}
+}//pretty print
+
+// RUN ALGORITHM
+void Expansion::runAlgorithm(ofstream& outfile1, ofstream& outfile2) {
+	//step 3 print the objectAry to outfile2 , debug file
+	changeflag = true;
+	cycleCount = 0;
+	prettyPrint(outfile2, objectAry, "objectAry", cycleCount,"Original Image");
+
+	//step10* repeat 4-9, repeat using the while loop, runs until the changeFlag is false
+	while (changeflag) {
+		
+		changeflag = false;
+		cycleCount++;
+		NorthExpansion(); copyAry();
+		if (cycleCount == 0 || cycleCount == 3 || cycleCount == 5) {
+			outfile2 << "After North Expansion ";
+			prettyPrint(outfile2, firstAry, "firstAry", cycleCount,"After North Expansion");
+		}
+		SouthExpansion(); copyAry();
+		if (cycleCount == 0 || cycleCount == 3 || cycleCount == 5) {
+			outfile2 << "After South Expansion ";
+			prettyPrint(outfile2, firstAry, "firstAry", cycleCount, "After South Expansion");
+		}
+		WestExpansion(); copyAry();
+		if (cycleCount == 0 || cycleCount == 3 || cycleCount == 5) {
+			outfile2 << "After West Expansion ";
+			prettyPrint(outfile2, firstAry, "firstAry", cycleCount, "After West Expansion");
+		}
+		EastExpansion(); copyAry();
+		if (cycleCount == 0 || cycleCount == 3 || cycleCount == 5) {
+			outfile2 << "After East Expansion ";
+			prettyPrint(outfile2, firstAry, "firstAry", cycleCount, "After East Expansion");
+		}
+	}//while changeFlag is true
+	 //step 11
+	outfile2 << "Result: ";
+	prettyPrint(outfile2, firstAry, "firstAry", cycleCount,"Final Expansion Result");
+	//step12, write img header and firstAry to outfile-1
+	outfile1 << numRows <<" "<< numCols << " " << minVal << " " << maxVal << '\n';
+	for (int r = 1; r < numRows + 1; r++) {
+		for (int c = 1; c < numCols + 1; c++) {
+			outfile1 << firstAry[r][c]<<" ";
+		}
+		outfile1 << '\n';
+	}//fori
+}//run the algorithm
+
+ //main
+int main(int argc, char** argv) {
+	ifstream infile1; infile1.open(argv[1]);//input-1 , distance tranformed img
+	ifstream infile2; infile2.open(argv[2]);//input-2, threshold of distance img 
+	ofstream outfile1; outfile1.open(argv[3]);
+	ofstream outfile2; outfile2.open(argv[4]);
+
+	Expansion exp(infile1, infile2);
+	exp.runAlgorithm(outfile1, outfile2);
+	//step13
+	infile1.close(); infile2.close();
+	outfile1.close(); outfile2.close();
+
+}
+

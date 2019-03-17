@@ -1,0 +1,9 @@
+1. add to path: opencv\build\x64\vc14\bin 
+2.inside visual studio 2015, after creating a project folder and a cpp file. on the rightside of visual studio right click the proect name and select properties.
+3.click on c/c++ option drop down menu. click on general. then click "additional include directories: to include opencv directory.
+4.to find the directory, you open the opencv ->build->include. this folder should contain "opencv" and "opencv2" . select this directory and add it to step 3.
+5.now click on linker which is right under c/c++ and click on "additional library directories".
+6.to get the library we go to opencv->build->x64->vc14->lib , and include the directory to step 5. 
+7.specific library needed. go to the input undr linker section. click on additional dependencies. click edit and copy library to here.
+8.the library will be find in the directory in step 6. copy the name of the file which is "opencv_world310d.lib"
+9.past opencv_world310d.lib intostep 7. and we're done. phew!

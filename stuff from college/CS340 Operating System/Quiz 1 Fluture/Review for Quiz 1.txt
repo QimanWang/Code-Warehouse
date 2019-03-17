@@ -1,0 +1,35 @@
+Quick Answers to Quiz
+
+An embedded system is a computer system designed for specific control functions within a larger system, often with real-time computing constraints.
+
+
+Multiprocessing is a generic term for the use of two or more central processing units (CPUs) within a single computer system. There are many variations on this basic theme, and the definition of multiprocessing can vary with context, mostly as a function of how CPUs are defined.
+
+Time-sharing refers to sharing a computing resource among many users by multitasking.
+
+
+Because early mainframes and minicomputers were extremely expensive, it was rarely possible to allow a single user exclusive access to the machine for interactive use. But because computers in interactive use often spend much of their time idly waiting for user input, it was suggested that multiple users could share a machine by using one user's idle time to service other users. Similarly, small slices of time spent waiting for disk, tape, or network input could be granted to other users. Computers capable of providing time-sharing services would often operate in batch mode overnight.
+
+
+In DOS, OS/2, and also Microsoft Windows, batch file is the name given to a type of script file, a text file containing a series of commands to be executed by the command interpreter.
+
+Terminate and Stay Resident (TSR) is a computer system call in DOS computer operating systems that returns control to the system as if the program has quit, but keeps the program in memory, to be revived later by a hardware or software interrupt.[1] Many software vendors use the call to create the appearance of multitasking, by transferring control back to the terminated program on automatic or externally-generated events, such as pressing a certain key on the keyboard. Some TSR programs are effectively device drivers for hardware not directly supported by the operating system, while others are small utility programs offering frequently-used functionality such as scheduling and contact directories.
+
+
+An internal command is one that is built into the shell or command interpreter, rather than executed as a separate binary.
+
+Internal Unix commands are built with the shell and hence it will run in the same shell.
+eg: cd
+
+External Unix commands will start a new shell and then it gets executed
+eg: ls
+
+Internal commands are the commands that are executed directly by the shell. These commands will not have a separate process running for each.
+
+External commands are the commands that are executed by the kernal. These commands will have a process id running for it.
+
+A shell is software that provides an interface for users of an operating system which provides access to the services of a kernel.
+
+
+The design of the microprocessor architecture on practically all modern systems (except some embedded systems) involves a security model (such as the rings model) which specifies multiple privilege levels under which software may be executed; for instance, a program is usually limited to its own address space so that it cannot access or modify other running programs or the operating system itself, and a program is usually prevented from directly manipulating hardware devices (e.g. the frame buffer or network devices).
+However, many normal applications obviously need access to these components, so system calls are made available by the operating system to provide well-defined, safe implementations for such operations. The operating system executes at the highest level of privilege, and allows applications to request services via system calls, which are often executed via interrupts; an interrupt automatically puts the CPU into some required privilege level, and then passes control to the kernel, which determines whether the calling program should be granted the requested service. If the service is granted, the kernel executes a specific set of instructions over which the calling program has no direct control, returns the privilege level to that of the calling program, and then returns control to the calling program.

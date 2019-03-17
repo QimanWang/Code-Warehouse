@@ -1,0 +1,55 @@
+Logs************************************************
+2017-12-12 14:18:32.418: No command line argument, opening login screen
+2017-12-12 14:18:49.322: qw successfully registered.
+2017-12-12 14:18:51.068: qw Logged in successfully.
+2017-12-12 14:18:52.012: Successfully loaded previous database
+2017-12-12 14:18:52.049: Successfully loaded GUI
+2017-12-12 14:18:52.088: Opening GUI
+2017-12-12 14:18:52.088: qw_123 has logged off
+2017-12-12 14:19:09.435: Successfully searched pen added 46488477032 Hal-Sey Fifth Porcelain Figurine 08.99Goodwill Industries of Central North Carolina, Inc.12/12/2017 11:19:14 AM Pacific Time to database
+2017-12-12 14:19:12.378: Successfully searched pen added 46574173Vintage Framed 1949 Saturday Evening Post 09.99Palmetto Goodwill/Goodwill of Lower SC12/12/2017 11:19:31 AM Pacific Time to database
+2017-12-12 14:19:13.244: Successfully searched pen added 464884889.9 Pound fashion Jewelry Grab bag #4 4111.99Goodwill Keystone Area - Reading12/12/2017 11:19:33 AM Pacific Time to database
+2017-12-12 14:19:14.561: Successfully searched pen added 46488489KIRBY CARPET SHAMPOO SYSTEM 129.99Goodwill of Central &amp; Southern Indiana, Inc.12/12/2017 11:19:34 AM Pacific Time to database
+2017-12-12 14:19:15.901: Successfully searched pen added 46488531Size 36C Grey Victoria&#39;s Secret Bra #90 210.99Goodwill Industries of Northeast Iowa, Inc.12/12/2017 11:19:45 AM Pacific Time to database
+2017-12-12 14:19:26.968: Successfully Updated 46488531Size 36C Grey Victoria&#39;s Secret Bra #90 210.99Goodwill Industries of Northeast Iowa, Inc.12/12/2017 11:19:45 AM Pacific Time to database
+2017-12-12 14:19:30.085: Successfully added 46488531Size 36C Grey Victoria&#39;s Secret Bra #90 210.99Goodwill Industries of Northeast Iowa, Inc.12/12/2017 11:19:45 AM Pacific Time to database
+2017-12-12 14:19:33.737: Closing GUI
+2017-12-12 14:19:33.737: Successfully shut down program
+2017-12-12 14:50:22.693: No command line argument, opening login screen
+2017-12-12 14:50:28.329: cc was never registered
+2017-12-12 14:50:29.986: cc successfully registered.
+2017-12-12 14:50:32.361: cc Logged in successfully.
+2017-12-12 14:50:33.253: Successfully loaded previous database
+2017-12-12 14:50:33.302: Successfully loaded GUI
+2017-12-12 14:50:33.365: Opening GUI
+2017-12-12 14:50:33.366: cc_123 has logged off
+2017-12-12 14:50:44.246: Successfully searched keyboard cover added 46490057Wii Game Bundle 4147.57Goodwill Keystone Area - Reading12/12/2017 11:51:06 AM Pacific Time to database
+2017-12-12 14:50:45.519: Successfully searched keyboard cover added 46490083Yankees Major League Baseball Photo W/ Writing 11666.0Goodwill of Northern New England12/12/2017 11:51:39 AM Pacific Time to database
+2017-12-12 14:50:47.804: Successfully searched keyboard cover added 46490086Coach Silver Tone Signature Buckle Tote F18912 7013.99Goodwill Industries of the Inland Northwest12/12/2017 11:51:43 AM Pacific Time to database
+2017-12-12 14:50:48.87: Successfully searched keyboard cover added 46490088Sterling Silver Red Coral Heart Toggle Necklace 1343.0Goodwill Industries of the Inland Northwest12/12/2017 11:51:50 AM Pacific Time to database
+2017-12-12 14:50:49.611: Successfully searched keyboard cover added 46490102XBox 360 with Kinect &amp; Power Cord 640.0Goodwill Keystone Area - Reading12/12/2017 11:52:21 AM Pacific Time to database
+2017-12-12 14:52:47.883: Successfully Save to database
+2017-12-12 14:52:49.949: Closing GUI
+2017-12-12 14:52:49.949: Successfully shut down program
+2017-12-12 14:54:34.249: No command line argument, opening login screen
+2017-12-12 14:54:38.485: cc Logged in successfully.
+2017-12-12 14:54:38.922: Successfully loaded previous database
+2017-12-12 14:54:38.971: Successfully loaded GUI
+2017-12-12 14:54:39.037: Opening GUI
+2017-12-12 14:54:39.037: cc_123 has logged off
+2017-12-12 14:54:54.792: Successfully searched watch added 46558469|Vintage Anchor Hocking Fire King Egg Platter |0|8.99|Goodwill Industries of Michiana, Inc.|12/12/2017 11:55:00 AM Pacific Time| to database
+2017-12-12 14:54:55.482: Successfully searched watch added 46490221|BBB 14K Gold Chain |13|120.0|Goodwill Industries of East Texas, Inc.|12/12/2017 11:55:34 AM Pacific Time| to database
+2017-12-12 14:54:56.512: Successfully searched watch added 46490253|19.85 Lb Jewelry Grab Bag Box |79|61.0|Goodwill Industries of Northeast Iowa, Inc.|12/12/2017 11:56:35 AM Pacific Time| to database
+2017-12-12 14:54:59.494: Successfully searched watch added 46490262|Coach Canvas Pink Grey Wristlet Purse Leather Acc |0|7.99|Goodwill Industries of the Inland Northwest|12/12/2017 11:56:52 AM Pacific Time| to database
+2017-12-12 14:55:00.722: Successfully searched watch added 46490272|Portous Domani Knits Green Gray Dress And Jacket |12|23.0|Goodwill of Northern New England|12/12/2017 11:57:00 AM Pacific Time| to database
+2017-12-12 14:55:05.488: Successfully Save to database
+2017-12-12 14:55:07.84: Closing GUI
+2017-12-12 14:55:07.84: Successfully shut down program
+2017-12-12 16:41:24.71: No command line argument, opening login screen
+2017-12-12 16:42:15.181: qw Logged in successfully.
+2017-12-12 16:42:15.533: Successfully loaded previous database
+2017-12-12 16:42:15.606: Successfully loaded GUI
+2017-12-12 16:42:15.71: Opening GUI
+2017-12-12 16:42:15.71: qw_123 has logged off
+2017-12-12 16:49:52.486: Closing GUI
+2017-12-12 16:49:52.487: Successfully shut down program

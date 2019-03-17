@@ -1,0 +1,22 @@
+INSERT 1
+isbn=1
+author= a
+year_published= 12
+publisher= as
+title= asfgg
+price= 1.1
+quantity= 1
+rating= null
+Date: Wed Dec 06 13:10:45 EST 2017
+----------------------------------------------------------------------------------------------------
+DELETE 1
+isbn=1
+author= a
+year_published= 12
+publisher= as
+title= asfgg
+price= 1.1
+quantity= 1
+rating= null
+Date: Wed Dec 06 13:11:16 EST 2017
+----------------------------------------------------------------------------------------------------

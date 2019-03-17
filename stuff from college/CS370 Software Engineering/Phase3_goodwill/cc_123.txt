@@ -1,0 +1,11 @@
+Inventory Number|Item Name|Number of Bids|Price|Seller|Bid End Date
+46490088|Sterling Silver Red Coral Heart Toggle Necklace |13|43.0|Goodwill Industries of the Inland Northwest|12/12/2017 11:51:50 AM Pacific Time|
+46490086|Coach Silver Tone Signature Buckle Tote F18912 |70|13.99|Goodwill Industries of the Inland Northwest|12/12/2017 11:51:43 AM Pacific Time|
+46490083|Yankees Major League Baseball Photo W/ Writing |116|66.0|Goodwill of Northern New England|12/12/2017 11:51:39 AM Pacific Time|
+46490057|Wii Game Bundle |41|47.57|Goodwill Keystone Area - Reading|12/12/2017 11:51:06 AM Pacific Time|
+46490102|XBox 360 with Kinect &amp; Power Cord |6|40.0|Goodwill Keystone Area - Reading|12/12/2017 11:52:21 AM Pacific Time|
+46558469|Vintage Anchor Hocking Fire King Egg Platter |0|8.99|Goodwill Industries of Michiana, Inc.|12/12/2017 11:55:00 AM Pacific Time|
+46490221|BBB 14K Gold Chain |13|120.0|Goodwill Industries of East Texas, Inc.|12/12/2017 11:55:34 AM Pacific Time|
+46490253|19.85 Lb Jewelry Grab Bag Box |79|61.0|Goodwill Industries of Northeast Iowa, Inc.|12/12/2017 11:56:35 AM Pacific Time|
+46490262|Coach Canvas Pink Grey Wristlet Purse Leather Acc |0|7.99|Goodwill Industries of the Inland Northwest|12/12/2017 11:56:52 AM Pacific Time|
+46490272|Portous Domani Knits Green Gray Dress And Jacket |12|23.0|Goodwill of Northern New England|12/12/2017 11:57:00 AM Pacific Time|

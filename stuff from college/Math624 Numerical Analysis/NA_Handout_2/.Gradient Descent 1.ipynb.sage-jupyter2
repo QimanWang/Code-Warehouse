@@ -1,0 +1,32 @@
+{"type":"settings","kernel":"python2","backend_state":"running","trust":false,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}},"kernel_state":"idle"}
+{"type":"cell","id":"f6494a","pos":0,"input":"# Basic Gradient Descent\n\nGradient descent is a basic algorithm for minimizing a function.  Here's an example, implemented in python, from <a href=\"https://en.wikipedia.org/wiki/Gradient_descent#Computational_examples\">https://en.wikipedia.org/wiki/Gradient_descent#Computational_examples</a>.  The program finds the minimum of\n\n$$ f(x) =x^4−3x^3+2 $$","cell_type":"markdown"}
+{"type":"cell","id":"dd7f5b","pos":1,"input":"# From calculation, it is expected that the local minimum occurs at x=9/4\n\ncur_x = 6 # The algorithm starts at x=6\ngamma = 0.01 # step size multiplier\nprecision = 0.00001\nprevious_step_size = cur_x\n\ndef df(x):\n    return 4 * x**3 - 9 * x**2\n\nwhile previous_step_size > precision:\n    prev_x = cur_x\n    cur_x += -gamma * df(prev_x)\n    previous_step_size = abs(cur_x - prev_x)\n\nprint(\"The local minimum occurs at %f\" % cur_x)","cell_type":"code"}
+{"type":"cell","id":"7d157e","pos":2,"input":"## Import modules","cell_type":"markdown"}
+{"type":"cell","id":"6867b9","pos":3,"input":"import numpy as np\nimport scipy as sp\nimport matplotlib\nimport matplotlib.pyplot as plt","cell_type":"code","collapsed":true}
+{"type":"cell","id":"c05ee9","pos":4,"input":"The following line is a Jupyter code that tells matplotlib to print inline within the jupyter notbook","cell_type":"markdown"}
+{"type":"cell","id":"9f02b4","pos":5,"input":"%matplotlib inline","cell_type":"code","collapsed":true}
+{"type":"cell","id":"9be6d0","pos":6,"input":"Define a function","cell_type":"markdown"}
+{"type":"cell","id":"abccc0","pos":7,"input":"def f(x):\n    return  x**4 - 3 * x**3+2","cell_type":"code","collapsed":true}
+{"type":"cell","id":"daa338","pos":8,"input":"In order to plot this function, we make a bunch of (x,y) coordinates on the graph.  Before doing this, let's take a look at ways we can operate on elements in a list.","cell_type":"markdown"}
+{"type":"cell","id":"90e9a8","pos":9,"input":"x = np.linspace(0,5,11)\nprint x","cell_type":"code"}
+{"type":"cell","id":"68a1c6","pos":10,"input":"x**2","cell_type":"code"}
+{"type":"cell","id":"6e8e82","pos":11,"input":"np.sin(x)","cell_type":"code"}
+{"type":"cell","id":"4f59ac","pos":12,"input":"x = np.linspace(-0,4,1000)","cell_type":"code"}
+{"type":"cell","id":"d5fade","pos":13,"input":"y = f(x)","cell_type":"code"}
+{"type":"cell","id":"b8a4a7","pos":14,"input":"f(2)","cell_type":"code"}
+{"type":"cell","id":"f32aac","pos":15,"input":"f(a)","cell_type":"code"}
+{"type":"cell","id":"9cd22c","pos":16,"input":"from sympy import *","cell_type":"code","collapsed":true}
+{"type":"cell","id":"f4fda0","pos":17,"input":"a = Symbol('a')","cell_type":"code"}
+{"type":"cell","id":"f6e16c","pos":18,"input":"f(a)","cell_type":"code"}
+{"type":"cell","id":"2ab5d8","pos":19,"input":"matplotlib.rcParams.update({'font.size': 18, 'text.usetex': True})\nfig = plt.figure()\naxes = fig.add_axes([0.1, 0.1, 0.9, 0.7]) # left, bottom, width, height (range 0 to 1)\naxes.plot(x,y, 'g', label=r'$y = x^4-3x^3+2$') # g for green\naxes.legend(loc=2); # upper left corner\naxes.set_xlabel('$x$')\naxes.set_ylabel('$y$') ;\naxes.set_title('$y = x^4 - 3  x^3+2$');","cell_type":"code"}
+{"type":"cell","id":"166b1e","pos":20,"input":"cur_x = 6 # The algorithm starts at x=6\ngamma = 0.01 # step size multiplier\nprecision = 0.00001\nprevious_step_size = cur_x\n\nx_list = [cur_x]; y_list = [f(cur_x)]\n\ndef df(x):\n    return 4 * x**3 - 9 * x**2\n\nwhile previous_step_size > precision:\n    prev_x = cur_x\n    cur_x += -gamma * df(prev_x)\n    previous_step_size = abs(cur_x - prev_x)\n    x_list.append(cur_x)\n    y_list.append(f(cur_x))\n\nprint \"Local minimum occurs at:\", cur_x\nprint \"Number of steps:\", len(x_list)","cell_type":"code"}
+{"type":"cell","id":"87a121","pos":21,"input":"fig = plt.figure()\naxes = fig.add_axes([0.1, 0.1, 0.9, 0.7]) # left, bottom, width, height (range 0 to 1)\naxes.plot(x,y, 'g', label=r'$y = x^4-3x^3+2$') # g for green\naxes.scatter(x_list,y_list,c=\"r\")\naxes.plot(x_list,y_list,c=\"r\",label='gradient descent steps')\naxes.legend(loc=2); # upper left corner\naxes.set_xlabel('$x$')\naxes.set_ylabel('$y$') ;","cell_type":"code"}
+{"type":"cell","id":"311bee","pos":22,"input":"xzoom = np.linspace(0,2.5,100)\nyzoom=f(xzoom)\n\n\nfig = plt.figure()\naxes = fig.add_axes([0.1, 0.1, 0.9, 0.7]) # left, bottom, width, height (range 0 to 1)\naxes.plot(xzoom,yzoom, 'g', label=r'$y = x^4-3x^3+2$') # g for green\naxes.scatter(x_list[8:],y_list[8:],c=\"r\")\naxes.plot(x_list[8:],y_list[8:],c=\"r\",label='gradient descent steps')\naxes.legend(loc=3); # lower left corner\naxes.set_xlabel('$x$')\naxes.set_ylabel('$y$') ;","cell_type":"code"}
+{"type":"cell","id":"f22039","pos":23,"input":"## 2 dimensional example","cell_type":"markdown"}
+{"type":"cell","id":"74efab","pos":24,"input":"def g(x,y):\n    return (x-2)**2*(y-1)**2","cell_type":"code"}
+{"type":"cell","id":"831e15","pos":25,"input":"def grad_g(x,y):\n    return np.array([2*(x-2)*(y-1)**2, (x-2)**2*2*(y-1)])","cell_type":"code"}
+{"type":"cell","id":"76d118","pos":26,"input":"[a,b]=h*grad_g(3,3)\nprint [a,b]","cell_type":"code"}
+{"type":"cell","id":"286fc9","pos":27,"input":"x_old, y_old = 1,2 \nh = 0.1 # step size\nprecision = 0.00001\n\nx_list = [x_old]; y_list = [y_old]; z_list= [g(x_old,y_old)]\n\n[x_new, y_new] = [x_old, y_old] - h * grad_g(x_old,y_old)\n\nwhile (abs(x_new - x_old)+abs(y_new - y_old)) > precision:\n    x_old, y_old = x_new, y_new\n    direction = - grad_g(x_old,y_old)\n    [x_new, y_new] = [x_old,y_old] + h * direction\n    x_list.append(x_new)\n    y_list.append(y_new)\n    z_list.append(g(x_new,y_new))\nprint \"Local minimum occurs at:\", x_new,y_new\nprint \"Number of steps:\", len(z_list)","cell_type":"code"}
+{"type":"cell","id":"381e88","pos":28,"input":"g(1.97076954928, 1.02923045072)","cell_type":"code"}
+{"type":"cell","id":"0c308b","pos":29,"input":"","cell_type":"code","collapsed":true}
+{"type":"file","last_load":1505411792814}

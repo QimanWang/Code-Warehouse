@@ -1,0 +1,113 @@
+
+Project 4: Compute the distance transform of binary objects and
+		the skeltons of objects from distance transform
+	     
+
+**************************************
+Language: C++
+2/28/2017 Tuesday before Midnight
+Due date: hard copy:  3/2/2016  Thursday in class
+
+*************************************
+
+I. Input: a binary image to be given.
+	  // Use argv[1] for the input file
+
+II. Outputs: 
+
+      You should have three output files: // Use argv[2], argv[3], and argv[4].
+
+	- Use argv[2] to do:
+  
+		1) Create a distance transform image from the result of Pass-2 
+			with image header for future processing.
+
+	- Use argv[3] to do:
+ 
+ 		2) Create a skeleton image from the result of local maxima computation 
+			with image header for future processing.
+
+	- Use argv[4] to do: 
+ 
+		3) Pretty print the result of the Pass-1 of distance transform 
+			with proper caption
+	
+		4) Pretty print the result of the Pass-2 of distance transform 
+			with proper caption
+
+		5) Pretty print the result of the skeleton 
+			with proper caption
+
+
+*******************************
+III. Data structure:
+*******************************
+ - An ImageProcessing class
+
+	- numRows (int)
+	- numCols (int)
+	- minVal (int)
+	- maxVal (int)
+	- ZeroFramedAry (int **) a 2D array, need to dynamically allocate at run time
+			of size numRows + 2 by numCols + 2.
+	- skeletonAry (int **) a 2D array, need to dynamically allocate at run time
+			of size numRows + 2 by numCols + 2.
+
+	- methods:
+	- constructor(s)
+		- need to dynamically allocate ZeroFrameAry 
+		- assign values to numRows,..., etc.
+ 	- zeroFramed  
+	- loadImage 
+			// Read from the input file onto ZeroFrameAry  
+			// the first pixel of input image is loaded 
+			// at ZeroFrameAry[1][1]
+
+	- fistPassDistance
+	- secondPassDistance
+	- computeSkelton
+		// if p(i,j) > 0 and  is >= to all its 8 neighobers
+	       	 skeletonAry(i,j) = p(i,j)
+		   else
+        		 skeletonAry(i,j) = 0
+
+	- mapInt2Char // you may use itoa(int), from C library 
+		// In prettyPrintDistance, print an integer in ascii from.
+
+	- prettyPrintDistance
+	 // if p(i,j) == 0 print use 2 blank space
+	    else print mapInt2Char(p(i,j)) use 2 digit space 
+     
+*******************************
+III. Algorithms 
+*******************************
+  
+step 0: read the image header
+	   dynamically allocate zerpFramedAry and skeletonAry
+
+step 1: 1.1 zeroFrame the array.
+	
+	   1.2 read from the input file onto zeroFramedAry
+
+step 2: 2.1 firstPassDistance // algorithm taught in class
+
+	   2.2 prettyPrintDistace of the result of Pass-1 
+		with caption, in argv[4]
+	
+step 3: 3.1 secondPassDistance // algorithm taught in class
+
+	   3.2 prettyPrintDistace of the result of Pass-2 
+			with caption, in argv[4]
+
+	   3.3 Create a distance transform image from the result of Pass-2 
+		with *image header, in argv[2], for future processing.
+
+step 4: 4.1 computeSkeleton from the result of Pass-2.
+		// see method given in the above 
+
+ 	   4.2 prettyPrintDistace of the skeleton 
+		with caption, in argv[4]
+
+	   4.3 Create a skeleton image from the result of computeSkeleton 
+		with image header, write to argv[3] for future processing.
+

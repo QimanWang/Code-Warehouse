@@ -1,0 +1,26 @@
+Inventory Number|Item Name|Number of Bids|Price|Seller|Bid End Date|
+46469532|925 Unique Dangle Earrings |11|6.99|Marion Goodwill Industries|12/12/2017 5:52:47 AM Pacific Time|
+46469564|925 Clear Rhinestone Hoop Earrings |0|6.99|Marion Goodwill Industries|12/12/2017 5:53:35 AM Pacific Time|
+46605050|Cubic zirconia earrings, with box |0|7.99|Goodwill Industries of Southwest Oklahoma &amp; North Texas|12/12/2017 6:49:19 AM Pacific Time|
+46605053|Genuine Crystal 18&#39; Pendant &amp; Earring Set, in box |0|9.99|Goodwill Industries of Southwest Oklahoma &amp; North Texas|12/12/2017 6:49:19 AM Pacific Time|
+46606823|Jewelry lot - faux pearl necklace w/earrings |0|6.99|Goodwill Industries of Southwest Oklahoma &amp; North Texas|12/12/2017 7:30:52 AM Pacific Time|
+46605949|iTikes I Learn... Piano Toy |0|5.99|Goodwill Easter Seals of the Gulf Coast, Inc.|12/12/2017 7:11:59 AM Pacific Time|
+46484117|HOHNER MELODICA PIANO 26 |21|13.0|Goodwill Keystone Area - Berwyn|12/12/2017 9:59:12 AM Pacific Time|
+46558459|Huntington Keyboard/Electric Piano |0|8.99|Goodwill Industries of Michiana, Inc.|12/12/2017 10:23:00 AM Pacific Time|
+46719317|Edvard Grieg: Piano Concerto &amp; Lyric CD |0|6.49|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
+46719809|NWT Piano Bronze Beaded Iridescent Zip Up Shirt M |0|7.49|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
+46468433|LifeStride Pink Shoes Sz 7.5W IOB |0|6.99|Goodwill Keystone Area - Reading|12/12/2017 5:42:04 AM Pacific Time|
+46468483|Kelly &amp; Kayie Tan Shoes Sz 8.5 IOB |0|6.99|Goodwill Keystone Area - Reading|12/12/2017 5:44:00 AM Pacific Time|
+46468545|Laura Scott Red Shoes Sz 8M IOB |0|6.99|Goodwill Keystone Area - Reading|12/12/2017 5:45:52 AM Pacific Time|
+46468744|White Mountain Red Shoes Sz 8M IOB |0|6.99|Goodwill Keystone Area - Reading|12/12/2017 5:47:27 AM Pacific Time|
+46469322|Apostrophe Black Shoes Sz 8M IOB |0|6.99|Goodwill Keystone Area - Reading|12/12/2017 5:50:00 AM Pacific Time|
+46725149|Body Glove Gray/White Shirt Sz XL |0|7.99|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
+46727765|NWT Body Glove Brown Bikini Halter Top Sz M |0|7.99|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
+46492832|Master Case of Food Guard Vinyl Gloves sz S |1|9.99|Goodwill Industries of South Central Wisconsin, Inc.|12/12/2017 5:00:00 PM Pacific Time|
+46478559|2 Pairs of Winter Gloves and Hats with Rabbit Fur |3|36.0|Goodwill Industries of the Columbia Willamette|12/12/2017 5:15:00 PM Pacific Time|
+46569459|Nintendo NES Power Glove with Cords |53|58.0|Goodwill Industries of the Valleys|12/12/2017 6:10:00 PM Pacific Time|
+46487263|Forever sharp Knife Set |0|6.99|Goodwill Industries of Northeast Iowa, Inc.|12/12/2017 11:08:33 AM Pacific Time|
+46717954|Vtg Sm Silvertone W/ Black Plastic Pocket Knife |0|6.99|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
+46717972|Orange Plastic Case Swiss Army Style Pocket Knife |0|6.99|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
+46717995|Vtg Black Silvertone Multi-Blade Pocket Knife |0|6.99|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
+46718123|Small Vintage Wood Toned Pocket Knife |0|6.99|Goodwill Industries of North Central PA, Inc.|12/12/2017 4:00:00 PM Pacific Time|
